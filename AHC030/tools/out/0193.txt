@@ -1,0 +1,111 @@
+# [[0, 0], [1, 0], [1, 1], [1, 2], [2, 1], [2, 2], [2, 3], [2, 4], [3, 2], [3, 3], [3, 4], [3, 5], [4, 2], [4, 3], [4, 4], [4, 5], [4, 6]]
+# [[0, 1], [1, 1], [2, 1], [2, 2], [2, 3], [3, 1], [4, 1], [5, 1], [6, 1], [6, 2], [7, 0], [7, 1]]
+q 16 0 0 0 1 0 2 0 3 1 0 1 1 1 2 1 3 2 0 2 1 2 2 2 3 3 0 3 1 3 2 3 3 
+q 4 0 0 0 1 1 0 1 1 
+q 4 0 2 0 3 1 2 1 3 
+q 4 2 0 2 1 3 0 3 1 
+q 4 2 2 2 3 3 2 3 3 
+q 16 0 4 0 5 0 6 0 7 1 4 1 5 1 6 1 7 2 4 2 5 2 6 2 7 3 4 3 5 3 6 3 7 
+q 4 0 4 0 5 1 4 1 5 
+q 4 0 6 0 7 1 6 1 7 
+q 4 2 4 2 5 3 4 3 5 
+q 1 2 4 
+#c 2 4 green
+# searchh
+q 1 1 4 
+q 1 2 3 
+q 1 2 5 
+q 1 3 4 
+#c 3 4 green
+# found/all 3 29
+q 1 3 3 
+q 1 3 5 
+q 1 4 4 
+#c 4 4 green
+# found/all 5 29
+q 1 4 3 
+q 1 4 5 
+#c 4 5 green
+# found/all 7 29
+q 1 5 4 
+#c 5 4 green
+# found/all 8 29
+q 1 4 6 
+#c 4 6 green
+# found/all 10 29
+q 1 5 5 
+#c 5 5 green
+# found/all 11 29
+q 1 5 3 
+q 1 6 4 
+#c 6 4 green
+# found/all 12 29
+q 1 3 6 
+q 1 4 7 
+q 1 5 6 
+#c 5 6 green
+# found/all 13 29
+q 1 6 5 
+q 1 6 3 
+q 1 7 4 
+#c 7 4 green
+# found/all 14 29
+q 1 5 7 
+#c 5 7 green
+# found/all 15 29
+q 1 6 6 
+#c 6 6 green
+# found/all 16 29
+q 1 7 3 
+q 1 7 5 
+q 1 8 4 
+#c 8 4 green
+# found/all 17 29
+q 1 5 8 
+#c 5 8 green
+# found/all 18 29
+q 1 6 7 
+#c 6 7 green
+# found/all 19 29
+q 1 7 6 
+#c 7 6 green
+# found/all 20 29
+q 1 8 3 
+q 1 8 5 
+#c 8 5 green
+# found/all 21 29
+q 1 9 4 
+#c 9 4 green
+# found/all 22 29
+q 1 4 8 
+q 1 5 9 
+q 1 6 8 
+#c 6 8 green
+# found/all 23 29
+q 1 7 7 
+#c 7 7 green
+# found/all 24 29
+q 1 8 6 
+q 1 9 5 
+q 1 9 3 
+#c 9 3 green
+# found/all 25 29
+q 1 10 4 
+q 1 6 9 
+#c 6 9 green
+# found/all 26 29
+q 1 7 8 
+#c 7 8 green
+# found/all 27 29
+q 1 8 7 
+q 1 9 2 
+q 1 10 3 
+q 1 6 10 
+q 1 7 9 
+#c 7 9 green
+# found/all 28 29
+q 1 8 8 
+q 1 7 10 
+#c 7 10 green
+# found/all 29 29
+a 25 2 4 3 4 4 4 4 5 5 4 4 6 5 5 6 4 5 6 7 4 5 7 6 6 8 4 5 8 6 7 7 6 8 5 9 4 6 8 7 7 9 3 6 9 7 8 7 9 7 10 

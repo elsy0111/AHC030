@@ -1,0 +1,83 @@
+# [[0, 0], [1, 0], [2, 0], [2, 1], [3, 0], [3, 1]]
+# [[0, 2], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 1]]
+# [[0, 1], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3], [2, 0]]
+# [[0, 3], [1, 1], [1, 2], [1, 3], [1, 4], [2, 0], [2, 1], [2, 2], [2, 3], [2, 4]]
+q 16 0 0 0 1 0 2 0 3 1 0 1 1 1 2 1 3 2 0 2 1 2 2 2 3 3 0 3 1 3 2 3 3 
+q 4 0 0 0 1 1 0 1 1 
+q 4 0 2 0 3 1 2 1 3 
+q 4 2 0 2 1 3 0 3 1 
+q 1 2 0 
+q 1 2 1 
+#c 2 1 green
+# searchh
+q 1 1 1 
+q 1 2 2 
+#c 2 2 green
+# found/all 3 32
+q 1 3 1 
+#c 3 1 green
+# found/all 5 32
+q 1 1 2 
+q 1 2 3 
+#c 2 3 green
+# found/all 7 32
+q 1 3 2 
+#c 3 2 green
+# found/all 9 32
+q 1 3 0 
+#c 3 0 green
+# found/all 10 32
+q 1 4 1 
+#c 4 1 green
+# found/all 11 32
+q 1 1 3 
+#c 1 3 green
+# found/all 13 32
+q 1 2 4 
+#c 2 4 green
+# found/all 16 32
+q 1 3 3 
+#c 3 3 green
+# found/all 18 32
+q 1 4 2 
+#c 4 2 green
+# found/all 19 32
+q 1 4 0 
+q 1 5 1 
+q 1 0 3 
+q 1 1 4 
+#c 1 4 green
+# found/all 20 32
+q 1 2 5 
+#c 2 5 green
+# found/all 21 32
+q 1 3 4 
+#c 3 4 green
+# found/all 24 32
+q 1 4 3 
+q 1 5 2 
+q 1 0 4 
+q 1 1 5 
+q 1 2 6 
+q 1 3 5 
+#c 3 5 green
+# found/all 26 32
+q 1 4 4 
+#c 4 4 green
+# found/all 28 32
+q 1 3 6 
+#c 3 6 green
+# found/all 29 32
+q 1 4 5 
+#c 4 5 green
+# found/all 30 32
+q 1 5 4 
+q 1 3 7 
+#c 3 7 green
+# found/all 31 32
+q 1 4 6 
+q 1 5 5 
+q 1 2 7 
+#c 2 7 green
+# found/all 32 32
+a 20 2 1 2 2 3 1 2 3 3 2 3 0 4 1 1 3 2 4 3 3 4 2 1 4 2 5 3 4 3 5 4 4 3 6 4 5 3 7 2 7 

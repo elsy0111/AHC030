@@ -1,0 +1,476 @@
+# [[0, 2], [1, 0], [1, 1], [1, 2], [2, 2], [2, 3], [3, 2], [4, 0], [4, 1], [4, 2], [5, 0], [5, 2], [6, 0]]
+# [[0, 4], [1, 2], [1, 3], [1, 4], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2], [3, 3], [4, 3], [4, 4]]
+# [[0, 3], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [2, 2], [2, 3]]
+# [[0, 0], [1, 0], [1, 1], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3], [3, 4], [3, 5], [4, 2], [4, 3]]
+# [[0, 1], [1, 0], [1, 1], [2, 1], [3, 1]]
+# [[0, 0], [1, 0], [1, 1], [2, 1], [2, 2], [3, 2]]
+# [[0, 1], [0, 3], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [2, 3], [3, 1], [4, 1]]
+# [[0, 2], [1, 0], [1, 2], [2, 0], [2, 1], [2, 2], [3, 0], [3, 1], [4, 1]]
+# [[0, 3], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [1, 5], [2, 1], [2, 2], [3, 2], [4, 1], [4, 2]]
+# [[0, 1], [1, 0], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [2, 4], [3, 2]]
+# [[0, 0], [0, 2], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2]]
+# [[0, 2], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [2, 4], [2, 5], [2, 6], [2, 7]]
+# [[0, 1], [0, 2], [1, 1], [2, 0], [2, 1]]
+# [[0, 4], [1, 1], [1, 2], [1, 3], [1, 4], [2, 0], [2, 1], [2, 2], [2, 4], [3, 1], [3, 2], [3, 3], [4, 2]]
+q 16 0 0 0 1 0 2 0 3 1 0 1 1 1 2 1 3 2 0 2 1 2 2 2 3 3 0 3 1 3 2 3 3 
+q 4 0 0 0 1 1 0 1 1 
+q 1 0 0 
+q 1 0 1 
+q 1 1 0 
+q 1 1 1 
+q 4 0 2 0 3 1 2 1 3 
+q 4 2 0 2 1 3 0 3 1 
+q 4 2 2 2 3 3 2 3 3 
+q 16 0 4 0 5 0 6 0 7 1 4 1 5 1 6 1 7 2 4 2 5 2 6 2 7 3 4 3 5 3 6 3 7 
+q 4 0 4 0 5 1 4 1 5 
+q 1 0 4 
+q 1 0 5 
+q 1 1 4 
+#c 1 4 green
+# searchh
+q 1 1 3 
+q 1 1 5 
+#c 1 5 green
+# found/all 2 138
+q 1 2 4 
+#c 2 4 green
+# found/all 3 138
+q 1 1 6 
+#c 1 6 green
+# found/all 4 138
+q 1 2 5 
+#c 2 5 green
+# found/all 5 138
+q 1 2 3 
+q 1 3 4 
+#c 3 4 green
+# found/all 6 138
+q 1 0 6 
+#c 0 6 green
+# found/all 7 138
+q 1 1 7 
+q 1 2 6 
+q 1 3 5 
+#c 3 5 green
+# found/all 8 138
+q 1 3 3 
+#c 3 3 green
+# found/all 9 138
+q 1 4 4 
+q 1 0 7 
+q 1 3 6 
+q 1 4 5 
+#c 4 5 green
+# found/all 10 138
+q 1 3 2 
+#c 3 2 green
+# found/all 11 138
+q 1 4 3 
+q 1 4 6 
+#c 4 6 green
+# found/all 13 138
+q 1 5 5 
+#c 5 5 green
+# found/all 14 138
+q 1 2 2 
+q 1 3 1 
+q 1 4 2 
+q 1 4 7 
+q 1 5 6 
+#c 5 6 green
+# found/all 15 138
+q 1 5 4 
+#c 5 4 green
+# found/all 16 138
+q 1 6 5 
+#c 6 5 green
+# found/all 18 138
+q 1 5 7 
+q 1 6 6 
+#c 6 6 green
+# found/all 19 138
+q 1 5 3 
+q 1 6 4 
+#c 6 4 green
+# found/all 21 138
+q 1 7 5 
+#c 7 5 green
+# found/all 23 138
+q 1 6 7 
+q 1 7 6 
+#c 7 6 green
+# found/all 24 138
+q 1 6 3 
+#c 6 3 green
+# found/all 25 138
+q 1 7 4 
+#c 7 4 green
+# found/all 26 138
+q 1 8 5 
+#c 8 5 green
+# found/all 28 138
+q 1 7 7 
+q 1 8 6 
+q 1 6 2 
+q 1 7 3 
+#c 7 3 green
+# found/all 29 138
+q 1 8 4 
+q 1 9 5 
+#c 9 5 green
+# found/all 30 138
+q 1 7 2 
+q 1 8 3 
+#c 8 3 green
+# found/all 31 138
+q 1 9 4 
+#c 9 4 green
+# found/all 32 138
+q 1 9 6 
+q 1 10 5 
+#c 10 5 green
+# found/all 33 138
+q 1 8 2 
+#c 8 2 green
+# found/all 34 138
+q 1 9 3 
+#c 9 3 green
+# found/all 36 138
+q 1 10 4 
+q 1 10 6 
+q 1 11 5 
+q 1 8 1 
+q 1 9 2 
+q 1 10 3 
+#c 10 3 green
+# found/all 39 138
+q 1 10 2 
+#c 10 2 green
+# found/all 40 138
+q 1 11 3 
+#c 11 3 green
+# found/all 42 138
+q 1 10 1 
+#c 10 1 green
+# found/all 43 138
+q 1 11 2 
+#c 11 2 green
+# found/all 44 138
+q 1 11 4 
+#c 11 4 green
+# found/all 45 138
+q 1 12 3 
+q 1 9 1 
+#c 9 1 green
+# found/all 46 138
+q 1 10 0 
+#c 10 0 green
+# found/all 47 138
+q 1 11 1 
+q 1 12 2 
+#c 12 2 green
+# found/all 48 138
+q 1 12 4 
+q 1 9 0 
+q 1 11 0 
+#c 11 0 green
+# found/all 49 138
+q 1 12 1 
+q 1 13 2 
+#c 13 2 green
+# found/all 51 138
+q 1 12 0 
+q 1 13 1 
+q 1 13 3 
+#c 13 3 green
+# found/all 52 138
+q 1 14 2 
+#c 14 2 green
+# found/all 54 138
+q 1 13 4 
+#c 13 4 green
+# found/all 55 138
+q 1 14 3 
+#c 14 3 green
+# found/all 56 138
+q 1 14 1 
+#c 14 1 green
+# found/all 58 138
+q 1 15 2 
+#c 15 2 green
+# found/all 60 138
+q 1 13 5 
+#c 13 5 green
+# found/all 61 138
+q 1 14 4 
+q 1 15 3 
+#c 15 3 green
+# found/all 63 138
+q 1 14 0 
+#c 14 0 green
+# found/all 64 138
+q 1 15 1 
+#c 15 1 green
+# found/all 65 138
+q 1 16 2 
+#c 16 2 green
+# found/all 66 138
+q 1 12 5 
+#c 12 5 green
+# found/all 67 138
+q 1 13 6 
+#c 13 6 green
+# found/all 69 138
+q 1 14 5 
+#c 14 5 green
+# found/all 70 138
+q 1 15 4 
+#c 15 4 green
+# found/all 71 138
+q 1 16 3 
+#c 16 3 green
+# found/all 72 138
+q 1 13 0 
+#c 13 0 green
+# found/all 73 138
+q 1 15 0 
+#c 15 0 green
+# found/all 74 138
+q 1 16 1 
+#c 16 1 green
+# found/all 75 138
+q 1 12 6 
+#c 12 6 green
+# found/all 76 138
+q 1 13 7 
+#c 13 7 green
+# found/all 77 138
+q 1 14 6 
+#c 14 6 green
+# found/all 78 138
+q 1 15 5 
+#c 15 5 green
+# found/all 79 138
+q 1 16 4 
+q 1 16 0 
+q 1 11 6 
+#c 11 6 green
+# found/all 80 138
+q 1 12 7 
+#c 12 7 green
+# found/all 81 138
+q 1 13 8 
+q 1 14 7 
+#c 14 7 green
+# found/all 84 138
+q 1 15 6 
+#c 15 6 green
+# found/all 85 138
+q 1 16 5 
+q 1 11 7 
+q 1 12 8 
+q 1 14 8 
+#c 14 8 green
+# found/all 86 138
+q 1 15 7 
+#c 15 7 green
+# found/all 88 138
+q 1 16 6 
+q 1 14 9 
+#c 14 9 green
+# found/all 89 138
+q 1 15 8 
+#c 15 8 green
+# found/all 92 138
+q 1 16 7 
+q 1 13 9 
+#c 13 9 green
+# found/all 93 138
+q 1 14 10 
+#c 14 10 green
+# found/all 94 138
+q 1 15 9 
+#c 15 9 green
+# found/all 96 138
+q 1 16 8 
+#c 16 8 green
+# found/all 97 138
+q 1 12 9 
+q 1 13 10 
+q 1 14 11 
+#c 14 11 green
+# found/all 98 138
+q 1 15 10 
+q 1 16 9 
+#c 16 9 green
+# found/all 99 138
+q 1 13 11 
+#c 13 11 green
+# found/all 100 138
+q 1 14 12 
+#c 14 12 green
+# found/all 101 138
+q 1 15 11 
+#c 15 11 green
+# found/all 102 138
+q 1 16 10 
+#c 16 10 green
+# found/all 103 138
+q 1 12 11 
+q 1 13 12 
+#c 13 12 green
+# found/all 104 138
+q 1 14 13 
+#c 14 13 green
+# found/all 105 138
+q 1 15 12 
+#c 15 12 green
+# found/all 106 138
+q 1 16 11 
+#c 16 11 green
+# found/all 107 138
+q 1 12 12 
+q 1 13 13 
+#c 13 13 green
+# found/all 108 138
+q 1 14 14 
+#c 14 14 green
+# found/all 109 138
+q 1 15 13 
+#c 15 13 green
+# found/all 111 138
+q 1 16 12 
+#c 16 12 green
+# found/all 113 138
+q 1 12 13 
+q 1 13 14 
+#c 13 14 green
+# found/all 114 138
+q 1 14 15 
+q 1 15 14 
+#c 15 14 green
+# found/all 115 138
+q 1 16 13 
+#c 16 13 green
+# found/all 117 138
+q 1 12 14 
+#c 12 14 green
+# found/all 118 138
+q 1 13 15 
+#c 13 15 green
+# found/all 119 138
+q 1 15 15 
+#c 15 15 green
+# found/all 120 138
+q 1 16 14 
+#c 16 14 green
+# found/all 121 138
+q 1 11 14 
+q 1 12 15 
+q 1 13 16 
+#c 13 16 green
+# found/all 122 138
+q 1 15 16 
+q 1 16 15 
+q 1 12 16 
+q 1 14 16 
+# SUM >= 2
+# SUM >= 2
+q 16 0 8 0 9 0 10 0 11 1 8 1 9 1 10 1 11 2 8 2 9 2 10 2 11 3 8 3 9 3 10 3 11 
+q 4 0 8 0 9 1 8 1 9 
+q 4 0 10 0 11 1 10 1 11 
+q 1 0 10 
+#c 0 10 green
+# searchh
+q 1 0 9 
+q 1 0 11 
+q 1 1 10 
+#c 1 10 green
+# found/all 124 138
+q 1 1 9 
+q 1 1 11 
+#c 1 11 green
+# found/all 125 138
+q 1 2 10 
+#c 2 10 green
+# found/all 126 138
+q 1 1 12 
+#c 1 12 green
+# found/all 127 138
+q 1 2 11 
+#c 2 11 green
+# found/all 128 138
+q 1 2 9 
+#c 2 9 green
+# found/all 129 138
+q 1 3 10 
+#c 3 10 green
+# found/all 130 138
+q 1 0 12 
+#c 0 12 green
+# found/all 131 138
+q 1 1 13 
+q 1 2 12 
+#c 2 12 green
+# found/all 132 138
+q 1 3 11 
+q 1 2 8 
+q 1 3 9 
+q 1 4 10 
+#c 4 10 green
+# found/all 133 138
+q 1 0 13 
+q 1 2 13 
+q 1 3 12 
+q 1 4 9 
+q 1 4 11 
+q 1 5 10 
+q 4 2 8 2 9 3 8 3 9 
+# SUM >= 2
+q 16 0 12 0 13 0 14 0 15 1 12 1 13 1 14 1 15 2 12 2 13 2 14 2 15 3 12 3 13 3 14 3 15 
+# SUM >= 2
+q 4 2 12 2 13 3 12 3 13 
+q 4 2 14 2 15 3 14 3 15 
+q 4 0 16 1 16 2 16 3 16 
+q 2 0 16 1 16 
+q 2 2 16 3 16 
+q 16 4 0 4 1 4 2 4 3 5 0 5 1 5 2 5 3 6 0 6 1 6 2 6 3 7 0 7 1 7 2 7 3 
+q 4 4 0 4 1 5 0 5 1 
+q 4 4 2 4 3 5 2 5 3 
+q 4 6 0 6 1 7 0 7 1 
+# SUM >= 2
+q 16 4 4 4 5 4 6 4 7 5 4 5 5 5 6 5 7 6 4 6 5 6 6 6 7 7 4 7 5 7 6 7 7 
+# SUM >= 2
+# SUM >= 2
+q 16 4 8 4 9 4 10 4 11 5 8 5 9 5 10 5 11 6 8 6 9 6 10 6 11 7 8 7 9 7 10 7 11 
+q 4 4 8 4 9 5 8 5 9 
+q 4 4 10 4 11 5 10 5 11 
+q 1 5 11 
+q 4 6 8 6 9 7 8 7 9 
+q 4 6 10 6 11 7 10 7 11 
+q 16 4 12 4 13 4 14 4 15 5 12 5 13 5 14 5 15 6 12 6 13 6 14 6 15 7 12 7 13 7 14 7 15 
+q 4 4 12 4 13 5 12 5 13 
+q 4 4 14 4 15 5 14 5 15 
+q 4 6 12 6 13 7 12 7 13 
+q 1 6 12 
+#c 6 12 green
+# searchh
+q 1 5 12 
+q 1 6 11 
+q 1 6 13 
+#c 6 13 green
+# found/all 135 138
+q 1 7 12 
+#c 7 12 green
+# found/all 136 138
+q 1 5 13 
+q 1 6 14 
+q 1 7 13 
+q 1 7 11 
+q 1 8 12 
+#c 8 12 green
+# found/all 137 138
+q 1 8 11 
+#c 8 11 green
+# found/all 138 138
+a 114 1 4 1 5 2 4 1 6 2 5 3 4 0 6 3 5 3 3 4 5 3 2 4 6 5 5 5 6 5 4 6 5 6 6 6 4 7 5 7 6 6 3 7 4 8 5 7 3 9 5 8 3 9 4 10 5 8 2 9 3 10 3 10 2 11 3 10 1 11 2 11 4 9 1 10 0 12 2 11 0 13 2 13 3 14 2 13 4 14 3 14 1 15 2 13 5 15 3 14 0 15 1 16 2 12 5 13 6 14 5 15 4 16 3 13 0 15 0 16 1 12 6 13 7 14 6 15 5 11 6 12 7 14 7 15 6 14 8 15 7 14 9 15 8 13 9 14 10 15 9 16 8 14 11 16 9 13 11 14 12 15 11 16 10 13 12 14 13 15 12 16 11 13 13 14 14 15 13 16 12 13 14 15 14 16 13 12 14 13 15 15 15 16 14 13 16 0 10 1 10 1 11 2 10 1 12 2 11 2 9 3 10 0 12 2 12 4 10 6 12 6 13 7 12 8 12 8 11 

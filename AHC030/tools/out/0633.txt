@@ -1,0 +1,115 @@
+# [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [1, 2], [1, 3], [2, 2], [2, 3]]
+# [[0, 1], [1, 0], [1, 1], [1, 2], [1, 3], [2, 2], [3, 2], [3, 3]]
+# [[0, 0], [0, 1], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0]]
+# [[0, 2], [1, 2], [2, 0], [2, 1], [2, 2], [3, 0], [3, 1]]
+q 16 0 0 0 1 0 2 0 3 1 0 1 1 1 2 1 3 2 0 2 1 2 2 2 3 3 0 3 1 3 2 3 3 
+q 4 0 0 0 1 1 0 1 1 
+q 1 0 0 
+q 1 0 1 
+q 1 1 0 
+q 1 1 1 
+q 4 0 2 0 3 1 2 1 3 
+q 1 0 2 
+q 1 0 3 
+q 1 1 2 
+q 1 1 3 
+q 4 2 0 2 1 3 0 3 1 
+q 4 2 2 2 3 3 2 3 3 
+q 1 2 2 
+q 1 2 3 
+q 1 3 2 
+#c 3 2 green
+# searchh
+q 1 3 1 
+#c 3 1 green
+# found/all 2 33
+q 1 3 3 
+#c 3 3 green
+# found/all 3 33
+q 1 4 2 
+q 1 2 1 
+q 1 3 0 
+q 1 4 1 
+#c 4 1 green
+# found/all 4 33
+q 1 3 4 
+#c 3 4 green
+# found/all 5 33
+q 1 4 3 
+#c 4 3 green
+# found/all 6 33
+q 1 4 0 
+#c 4 0 green
+# found/all 7 33
+q 1 5 1 
+#c 5 1 green
+# found/all 8 33
+q 1 2 4 
+q 1 3 5 
+#c 3 5 green
+# found/all 10 33
+q 1 4 4 
+#c 4 4 green
+# found/all 11 33
+q 1 5 3 
+#c 5 3 green
+# found/all 14 33
+q 1 5 0 
+q 1 5 2 
+#c 5 2 green
+# found/all 15 33
+q 1 6 1 
+#c 6 1 green
+# found/all 16 33
+q 1 2 5 
+q 1 3 6 
+q 1 4 5 
+#c 4 5 green
+# found/all 17 33
+q 1 5 4 
+#c 5 4 green
+# found/all 20 33
+q 1 6 3 
+#c 6 3 green
+# found/all 22 33
+q 1 6 2 
+#c 6 2 green
+# found/all 23 33
+q 1 6 0 
+#c 6 0 green
+# found/all 24 33
+q 1 7 1 
+q 1 4 6 
+q 1 5 5 
+#c 5 5 green
+# found/all 25 33
+q 1 6 4 
+#c 6 4 green
+# found/all 27 33
+q 1 7 3 
+q 1 7 2 
+q 1 7 0 
+#c 7 0 green
+# found/all 28 33
+q 1 5 6 
+q 1 6 5 
+#c 6 5 green
+# found/all 29 33
+q 1 7 4 
+q 1 8 0 
+q 1 6 6 
+#c 6 6 green
+# found/all 30 33
+q 1 7 5 
+#c 7 5 green
+# found/all 31 33
+q 1 6 7 
+q 1 7 6 
+q 1 8 5 
+#c 8 5 green
+# found/all 32 33
+q 1 8 4 
+q 1 8 6 
+#c 8 6 green
+# found/all 33 33
+a 26 3 2 3 1 3 3 4 1 3 4 4 3 4 0 5 1 3 5 4 4 5 3 5 2 6 1 4 5 5 4 6 3 6 2 6 0 5 5 6 4 7 0 6 5 6 6 7 5 8 5 8 6 

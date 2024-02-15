@@ -1,0 +1,137 @@
+# [[0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 2], [3, 1]]
+# [[0, 3], [1, 1], [1, 3], [1, 4], [2, 0], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2], [3, 3], [4, 2], [4, 3], [5, 2], [5, 3], [5, 4]]
+# [[0, 3], [1, 0], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1]]
+q 16 0 0 0 1 0 2 0 3 1 0 1 1 1 2 1 3 2 0 2 1 2 2 2 3 3 0 3 1 3 2 3 3 
+q 4 0 0 0 1 1 0 1 1 
+q 4 0 2 0 3 1 2 1 3 
+q 4 2 0 2 1 3 0 3 1 
+q 1 2 0 
+q 1 2 1 
+#c 2 1 green
+# searchh
+q 1 1 1 
+q 1 2 2 
+#c 2 2 green
+# found/all 4 35
+q 1 3 1 
+#c 3 1 green
+# found/all 5 35
+q 1 1 2 
+#c 1 2 green
+# found/all 6 35
+q 1 2 3 
+#c 2 3 green
+# found/all 8 35
+q 1 3 2 
+#c 3 2 green
+# found/all 10 35
+q 1 3 0 
+q 1 4 1 
+q 1 0 2 
+q 1 1 3 
+#c 1 3 green
+# found/all 11 35
+q 1 2 4 
+#c 2 4 green
+# found/all 12 35
+q 1 3 3 
+#c 3 3 green
+# found/all 14 35
+q 1 4 2 
+#c 4 2 green
+# found/all 15 35
+q 1 0 3 
+q 1 1 4 
+#c 1 4 green
+# found/all 17 35
+q 1 2 5 
+q 1 3 4 
+#c 3 4 green
+# found/all 18 35
+q 1 4 3 
+#c 4 3 green
+# found/all 19 35
+q 1 5 2 
+q 1 0 4 
+#c 0 4 green
+# found/all 20 35
+q 1 1 5 
+#c 1 5 green
+# found/all 21 35
+q 1 3 5 
+q 1 4 4 
+#c 4 4 green
+# found/all 22 35
+q 1 5 3 
+#c 5 3 green
+# found/all 23 35
+q 1 0 5 
+q 1 1 6 
+q 1 4 5 
+q 1 5 4 
+#c 5 4 green
+# found/all 24 35
+q 1 6 3 
+q 1 5 5 
+#c 5 5 green
+# found/all 25 35
+q 1 6 4 
+q 1 5 6 
+q 1 6 5 
+# SUM >= 2
+q 16 0 4 0 5 0 6 0 7 1 4 1 5 1 6 1 7 2 4 2 5 2 6 2 7 3 4 3 5 3 6 3 7 
+# SUM >= 2
+# SUM >= 2
+q 16 0 8 0 9 0 10 0 11 1 8 1 9 1 10 1 11 2 8 2 9 2 10 2 11 3 8 3 9 3 10 3 11 
+q 4 0 12 1 12 2 12 3 12 
+q 16 4 0 4 1 4 2 4 3 5 0 5 1 5 2 5 3 6 0 6 1 6 2 6 3 7 0 7 1 7 2 7 3 
+q 4 4 0 4 1 5 0 5 1 
+# SUM >= 2
+q 4 6 0 6 1 7 0 7 1 
+q 4 6 2 6 3 7 2 7 3 
+q 16 4 4 4 5 4 6 4 7 5 4 5 5 5 6 5 7 6 4 6 5 6 6 6 7 7 4 7 5 7 6 7 7 
+# SUM >= 2
+q 4 6 4 6 5 7 4 7 5 
+q 1 7 4 
+q 1 7 5 
+#c 7 5 green
+# searchh
+q 1 7 6 
+q 1 8 5 
+#c 8 5 green
+# found/all 27 35
+q 1 8 4 
+#c 8 4 green
+# found/all 28 35
+q 1 8 6 
+q 1 9 5 
+#c 9 5 green
+# found/all 29 35
+q 1 8 3 
+#c 8 3 green
+# found/all 30 35
+q 1 9 4 
+#c 9 4 green
+# found/all 31 35
+q 1 9 6 
+q 1 10 5 
+q 1 7 3 
+q 1 8 2 
+#c 8 2 green
+# found/all 32 35
+q 1 9 3 
+q 1 10 4 
+q 1 7 2 
+q 1 8 1 
+q 1 9 2 
+#c 9 2 green
+# found/all 33 35
+q 1 9 1 
+q 1 10 2 
+#c 10 2 green
+# found/all 34 35
+q 1 10 1 
+q 1 10 3 
+#c 10 3 green
+# found/all 35 35
+a 29 2 1 2 2 3 1 1 2 2 3 3 2 1 3 2 4 3 3 4 2 1 4 3 4 4 3 0 4 1 5 4 4 5 3 5 4 5 5 7 5 8 5 8 4 9 5 8 3 9 4 8 2 9 2 10 2 10 3 

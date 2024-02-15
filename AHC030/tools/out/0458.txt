@@ -1,0 +1,167 @@
+# [[0, 1], [1, 1], [2, 0], [2, 1], [3, 1]]
+# [[0, 1], [1, 0], [1, 1], [1, 2], [1, 3], [2, 1]]
+# [[0, 1], [1, 0], [1, 1], [1, 2], [2, 1]]
+# [[0, 0], [0, 1], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1]]
+# [[0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3]]
+# [[0, 1], [1, 1], [2, 0], [2, 1], [2, 2]]
+q 16 0 0 0 1 0 2 0 3 1 0 1 1 1 2 1 3 2 0 2 1 2 2 2 3 3 0 3 1 3 2 3 3 
+q 4 0 0 0 1 1 0 1 1 
+q 4 0 2 0 3 1 2 1 3 
+q 4 2 0 2 1 3 0 3 1 
+q 4 2 2 2 3 3 2 3 3 
+q 16 0 4 0 5 0 6 0 7 1 4 1 5 1 6 1 7 2 4 2 5 2 6 2 7 3 4 3 5 3 6 3 7 
+q 4 0 4 0 5 1 4 1 5 
+q 4 0 6 0 7 1 6 1 7 
+q 1 0 6 
+#c 0 6 green
+# searchh
+q 1 0 5 
+q 1 0 7 
+q 1 1 6 
+#c 1 6 green
+# found/all 2 34
+q 1 1 5 
+q 1 1 7 
+q 1 2 6 
+#c 2 6 green
+# found/all 4 34
+q 1 2 5 
+#c 2 5 green
+# found/all 6 34
+q 1 2 7 
+#c 2 7 green
+# found/all 7 34
+q 1 3 6 
+#c 3 6 green
+# found/all 8 34
+q 1 2 4 
+#c 2 4 green
+# found/all 9 34
+q 1 3 5 
+q 1 2 8 
+q 1 3 7 
+#c 3 7 green
+# found/all 10 34
+q 1 4 6 
+q 1 1 4 
+#c 1 4 green
+# found/all 11 34
+q 1 2 3 
+#c 2 3 green
+# found/all 12 34
+q 1 3 4 
+#c 3 4 green
+# found/all 13 34
+q 1 3 8 
+q 1 4 7 
+#c 4 7 green
+# found/all 14 34
+q 1 0 4 
+q 1 1 3 
+q 1 2 2 
+q 1 3 3 
+q 1 4 4 
+#c 4 4 green
+# found/all 15 34
+q 1 4 8 
+#c 4 8 green
+# found/all 16 34
+q 1 5 7 
+#c 5 7 green
+# found/all 17 34
+q 1 4 3 
+#c 4 3 green
+# found/all 18 34
+q 1 4 5 
+q 1 5 4 
+#c 5 4 green
+# found/all 19 34
+q 1 4 9 
+#c 4 9 green
+# found/all 20 34
+q 1 5 8 
+q 1 5 6 
+#c 5 6 green
+# found/all 21 34
+q 1 6 7 
+q 1 4 2 
+q 1 5 3 
+#c 5 3 green
+# found/all 22 34
+q 1 5 5 
+q 1 6 4 
+q 1 3 9 
+q 1 4 10 
+q 1 5 9 
+q 1 6 6 
+q 1 5 2 
+#c 5 2 green
+# found/all 23 34
+q 1 6 3 
+q 1 5 1 
+#c 5 1 green
+# found/all 24 34
+q 1 6 2 
+q 1 4 1 
+q 1 5 0 
+q 1 6 1 
+# SUM >= 2
+q 12 0 8 0 9 0 10 1 8 1 9 1 10 2 8 2 9 2 10 3 8 3 9 3 10 
+q 4 0 8 0 9 1 8 1 9 
+q 1 0 8 
+q 1 0 9 
+#c 0 9 green
+# searchh
+q 1 0 10 
+q 1 1 9 
+#c 1 9 green
+# found/all 26 34
+q 1 1 8 
+#c 1 8 green
+# found/all 27 34
+q 1 1 10 
+#c 1 10 green
+# found/all 28 34
+q 1 2 9 
+#c 2 9 green
+# found/all 29 34
+q 1 2 10 
+q 2 0 10 1 10 
+q 4 2 8 2 9 3 8 3 9 
+q 2 2 10 3 10 
+q 1 3 10 
+q 16 4 0 4 1 4 2 4 3 5 0 5 1 5 2 5 3 6 0 6 1 6 2 6 3 7 0 7 1 7 2 7 3 
+q 4 4 0 4 1 5 0 5 1 
+# SUM >= 2
+q 4 6 0 6 1 7 0 7 1 
+q 4 6 2 6 3 7 2 7 3 
+q 1 7 2 
+q 1 7 3 
+q 16 4 4 4 5 4 6 4 7 5 4 5 5 5 6 5 7 6 4 6 5 6 6 6 7 7 4 7 5 7 6 7 7 
+# SUM >= 2
+q 4 6 4 6 5 7 4 7 5 
+q 1 6 5 
+q 1 7 4 
+q 1 7 5 
+q 4 6 6 6 7 7 6 7 7 
+q 1 7 6 
+q 1 7 7 
+#c 7 7 green
+# searchh
+q 1 7 8 
+q 1 8 7 
+#c 8 7 green
+# found/all 31 34
+q 1 8 6 
+q 1 8 8 
+q 1 9 7 
+#c 9 7 green
+# found/all 32 34
+q 1 9 6 
+#c 9 6 green
+# found/all 33 34
+q 1 9 8 
+q 1 10 7 
+#c 10 7 green
+# found/all 34 34
+a 32 0 6 1 6 2 6 2 5 2 7 3 6 2 4 3 7 1 4 2 3 3 4 4 7 4 4 4 8 5 7 4 3 5 4 4 9 5 6 5 3 5 2 5 1 0 9 1 9 1 8 1 10 2 9 7 7 8 7 9 7 9 6 10 7 

@@ -1,0 +1,138 @@
+# [[0, 4], [1, 0], [1, 2], [1, 4], [2, 0], [2, 1], [2, 2], [2, 3], [2, 4], [3, 1], [3, 4], [3, 5], [4, 3], [4, 4], [4, 5], [5, 3], [5, 4], [6, 3], [6, 4]]
+# [[0, 0], [0, 1], [0, 3], [0, 4], [1, 1], [1, 2], [1, 3], [1, 4], [2, 2], [3, 2]]
+q 16 0 0 0 1 0 2 0 3 1 0 1 1 1 2 1 3 2 0 2 1 2 2 2 3 3 0 3 1 3 2 3 3 
+q 4 0 0 0 1 1 0 1 1 
+q 1 0 0 
+q 1 0 1 
+#c 0 1 green
+# searchh
+q 1 0 2 
+#c 0 2 green
+# found/all 2 29
+q 1 1 1 
+q 1 0 3 
+q 1 1 2 
+#c 1 2 green
+# found/all 3 29
+q 1 1 3 
+#c 1 3 green
+# found/all 4 29
+q 1 2 2 
+q 1 1 4 
+#c 1 4 green
+# found/all 5 29
+q 1 2 3 
+#c 2 3 green
+# found/all 6 29
+q 1 0 4 
+#c 0 4 green
+# found/all 7 29
+q 1 1 5 
+#c 1 5 green
+# found/all 8 29
+q 1 2 4 
+q 1 3 3 
+#c 3 3 green
+# found/all 9 29
+q 1 0 5 
+#c 0 5 green
+# found/all 10 29
+q 1 1 6 
+q 1 2 5 
+q 1 3 2 
+q 1 3 4 
+q 1 4 3 
+q 1 0 6 
+q 1 1 0 
+# SUM >= 2
+q 4 2 0 2 1 3 0 3 1 
+# SUM >= 2
+q 16 0 4 0 5 0 6 0 7 1 4 1 5 1 6 1 7 2 4 2 5 2 6 2 7 3 4 3 5 3 6 3 7 
+# SUM >= 2
+q 4 2 4 2 5 3 4 3 5 
+q 4 2 6 2 7 3 6 3 7 
+q 12 0 8 0 9 0 10 1 8 1 9 1 10 2 8 2 9 2 10 3 8 3 9 3 10 
+q 16 4 0 4 1 4 2 4 3 5 0 5 1 5 2 5 3 6 0 6 1 6 2 6 3 7 0 7 1 7 2 7 3 
+q 4 4 0 4 1 5 0 5 1 
+q 4 4 2 4 3 5 2 5 3 
+q 4 6 0 6 1 7 0 7 1 
+q 4 6 2 6 3 7 2 7 3 
+q 16 4 4 4 5 4 6 4 7 5 4 5 5 5 6 5 7 6 4 6 5 6 6 6 7 7 4 7 5 7 6 7 7 
+q 4 4 4 4 5 5 4 5 5 
+q 1 4 4 
+q 1 4 5 
+q 1 5 4 
+q 1 5 5 
+#c 5 5 green
+# searchh
+q 1 5 6 
+q 1 6 5 
+#c 6 5 green
+# found/all 12 29
+q 1 6 4 
+q 1 6 6 
+#c 6 6 green
+# found/all 13 29
+q 1 7 5 
+q 1 6 7 
+#c 6 7 green
+# found/all 14 29
+q 1 7 6 
+#c 7 6 green
+# found/all 15 29
+q 1 5 7 
+#c 5 7 green
+# found/all 16 29
+q 1 6 8 
+#c 6 8 green
+# found/all 17 29
+q 1 7 7 
+q 1 8 6 
+q 1 4 7 
+q 1 5 8 
+q 1 6 9 
+#c 6 9 green
+# found/all 18 29
+q 1 7 8 
+q 1 5 9 
+#c 5 9 green
+# found/all 19 29
+q 1 6 10 
+q 1 7 9 
+#c 7 9 green
+# found/all 20 29
+q 1 4 9 
+#c 4 9 green
+# found/all 21 29
+q 1 5 10 
+q 1 7 10 
+#c 7 10 green
+# found/all 22 29
+q 1 8 9 
+#c 8 9 green
+# found/all 23 29
+q 1 3 9 
+q 1 4 8 
+q 1 4 10 
+q 1 8 10 
+#c 8 10 green
+# found/all 24 29
+q 1 8 8 
+#c 8 8 green
+# found/all 25 29
+q 1 9 9 
+#c 9 9 green
+# found/all 26 29
+q 1 9 10 
+q 1 8 7 
+q 1 9 8 
+#c 9 8 green
+# found/all 27 29
+q 1 10 9 
+#c 10 9 green
+# found/all 28 29
+q 1 9 7 
+q 1 10 8 
+#c 10 8 green
+# found/all 29 29
+a 29 0 1 0 2 1 2 1 3 1 4 2 3 0 4 1 5 3 3 0 5 5 5 6 5 6 6 6 7 7 6 5 7 6 8 6 9 5 9 7 9 4 9 7 10 8 9 8 10 8 8 9 9 9 8 10 9 10 8 

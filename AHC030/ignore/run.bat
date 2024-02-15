@@ -1,0 +1,1 @@
+tester.exe py main.py < in/0000.txt > out.txt
