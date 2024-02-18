@@ -8,54 +8,61 @@ q 4 0 0 0 1 1 0 1 1
 q 4 0 2 0 3 1 2 1 3 
 q 4 2 0 2 1 3 0 3 1 
 q 4 2 2 2 3 3 2 3 3 
-q 1 2 2 
-q 1 2 3 
-q 1 3 2 
-#c 3 2 green
+q 16 0 4 0 5 0 6 0 7 1 4 1 5 1 6 1 7 2 4 2 5 2 6 2 7 3 4 3 5 3 6 3 7 
+q 4 0 4 0 5 1 4 1 5 
+q 4 0 6 0 7 1 6 1 7 
+q 1 0 6 
+q 1 0 7 
+q 1 1 6 
+q 1 1 7 
+q 4 2 4 2 5 3 4 3 5 
+q 1 2 4 
+#c 2 4 green
 # searchh
-q 1 3 1 
-q 1 3 3 
-#c 3 3 green
+q 1 1 4 
+q 1 2 3 
+q 1 2 5 
+#c 2 5 green
 # found/all 2 29
-q 1 4 2 
 q 1 3 4 
 #c 3 4 green
 # found/all 3 29
-q 1 4 3 
-#c 4 3 green
+q 1 1 5 
+#c 1 5 green
 # found/all 4 29
-q 1 2 4 
-#c 2 4 green
+q 1 2 6 
+#c 2 6 green
 # found/all 5 29
 q 1 3 5 
 #c 3 5 green
 # found/all 6 29
-q 1 4 4 
-q 1 5 3 
-q 1 1 4 
-q 1 2 5 
-#c 2 5 green
+q 1 3 3 
+#c 3 3 green
 # found/all 7 29
+q 1 4 4 
+q 1 0 5 
+q 1 2 7 
 q 1 3 6 
 #c 3 6 green
 # found/all 8 29
 q 1 4 5 
 #c 4 5 green
 # found/all 9 29
-q 1 1 5 
-#c 1 5 green
+q 1 3 2 
+#c 3 2 green
 # found/all 10 29
-q 1 2 6 
-#c 2 6 green
+q 1 4 3 
+#c 4 3 green
 # found/all 11 29
 q 1 3 7 
 q 1 4 6 
 #c 4 6 green
 # found/all 12 29
 q 1 5 5 
-q 1 0 5 
-q 1 1 6 
-q 1 2 7 
+q 1 2 2 
+q 1 3 1 
+q 1 4 2 
+q 1 5 3 
 q 1 4 7 
 #c 4 7 green
 # found/all 13 29
@@ -111,4 +118,4 @@ q 1 7 2
 q 1 8 3 
 #c 8 3 green
 # found/all 29 29
-a 26 3 2 3 3 3 4 4 3 2 4 3 5 2 5 3 6 4 5 1 5 2 6 4 6 4 7 5 6 4 8 6 6 3 8 4 9 6 5 6 4 7 5 7 4 8 5 7 3 8 4 8 3 
+a 26 2 4 2 5 3 4 1 5 2 6 3 5 3 3 3 6 4 5 3 2 4 3 4 6 4 7 5 6 4 8 6 6 3 8 4 9 6 5 6 4 7 5 7 4 8 5 7 3 8 4 8 3 
