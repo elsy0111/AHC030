@@ -7,11 +7,11 @@ from termcolor import colored
 # # ロックオブジェクトを作成
 # output_lock = threading.Lock()
 
-def ACp(s : str, cr = True):
+def NA(s : str, cr = True):
     if cr:
-        print(colored(s, "blue"))
+        print(colored(s, "yellow"))
     else:
-        print(colored(s, "blue"), end = " ")
+        print(colored(s, "yellow"), end = " ")
 
 def AC(s : str, cr = True):
     if cr:
@@ -24,6 +24,12 @@ def WA(s : str, cr = True):
         print(colored(s, "red"))
     else:
         print(colored(s, "red"), end = " ")
+
+def NL(s : str, cr = True):
+    if cr:
+        print(colored(s, "blue"))
+    else:
+        print(colored(s, "blue"), end = " ")
 
 def run_test(seed):
     input_file = f"tools/in/{seed:04d}.txt"
@@ -40,7 +46,7 @@ def run_test(seed):
                                  stdin=open(input_file, 'r'), 
                                  stdout=open(output_file, 'w'),
                                  stderr=open(score__file,"w"))
-    ACp("#" + str(seed), cr = False)
+    NL("#" + str(seed), cr = False)
 
 def sum_score(start_seed : int, num : int):
     accept_cnt = 0
@@ -61,12 +67,16 @@ def sum_score(start_seed : int, num : int):
             WA("#" + str(seed), cr = False)
             # WA("Error Seed : " + str(seed) + " has no score")
         else:
-            AC("#" + str(seed), cr = False)
             accept_cnt += 1
             score = int(line.replace("Score = ","").replace("\n",""))
             score_ = int(line_.replace("Score = ","").replace("\n",""))
-            if score > score_:
+            # score_ = 100000000000000000
+            if score == score_:
+                NA("#" + str(seed), cr = False)
+            elif score > score_:
                 WA("#" + str(seed), cr = False)
+            else:
+                AC("#" + str(seed), cr = False)
             score_cnt += score
             score__cnt += score_
     print()
@@ -80,9 +90,9 @@ if __name__ == "__main__":
     #515
     #756
     start = 0
-    num = 500
+    num   = 300
     
-    ACp("Processing...")
+    NL("Processing...")
     with ProcessPoolExecutor() as executor:
         executor.map(run_test, range(start, start + num))
     print()
